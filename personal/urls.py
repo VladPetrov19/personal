@@ -20,5 +20,5 @@ from .views import info
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('info/', info)
+    path('info-page/', info)
 ]
